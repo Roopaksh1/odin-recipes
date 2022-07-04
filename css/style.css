@@ -1,0 +1,112 @@
+/*GLOBAL*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-decoration: underline;
+    margin: 25px;
+}
+
+p, li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+}
+
+body {
+    background-color: white;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+img {
+    margin: 50px auto;
+    border: 1px solid black;
+    height: 400px;
+    width: auto;
+    display: block;
+}
+
+hr {
+    border: 2px solid black;
+}
+
+.cooktime {
+    margin: 0px auto;
+    display: table;
+    border: 2px solid black;
+    list-style-position: inside;
+}
+
+.ingredients {
+    list-style-position: inside;
+}
+
+.steps {
+    list-style-position: inside;
+}
+
+/*MAIN*/
+
+#main ul {
+    width: 300px;
+    height: auto;
+    margin-left: 817px;
+    margin-bottom: 50px;
+    margin-right: 817px;
+    padding: 30px;
+}
+
+
+#main li {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+/*CUPCAKE*/
+
+.cupcake-img {
+    padding: 1px;
+    background-color: #a73934;
+    margin-top: -50px;
+}
+
+/*SALAD*/
+
+.salad-img {
+    padding: 1px;
+    margin-top: -50px;
+    background-color: #e0e0c3;
+}
+
+/*CAKE*/
+
+.cake-img {
+    padding: 1px;
+    background-color: #e6afb8;
+    margin-top: -50px;
+}
