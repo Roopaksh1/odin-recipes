@@ -8,11 +8,16 @@ html{
     padding: 0;
 }
 
+body{
+    background-color: #edf2f4;
+    font-family:cursive
+}
+
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 5rem;
     text-align: center;
-    background-color: black;
+    background-color: #2b2d42;
     color: white;
     padding: 2rem;
     margin-bottom: 5rem;
@@ -26,13 +31,8 @@ h2 {
 }
 
 p, li {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2rem;
     margin: 2rem;
-}
-
-body {
-    background-color: white;
 }
 
 a {
@@ -45,7 +45,7 @@ a:hover {
     text-decoration: underline;
 }
 
-img {
+.main-img {
     margin: 5rem auto;
     border: .11rem solid black;
     height: 40rem;
@@ -58,8 +58,8 @@ hr {
 }
 
 .cooktime {
-    margin: 0 auto;
-    display: table;
+    width: 25rem;
+    margin: auto;
     border: .2rem solid black;
     list-style-position: inside;
 }
@@ -89,6 +89,7 @@ a img{
     height: 20rem;
     border-radius: 1.5rem;
     transition: all 0.7s ease;
+    display: block;
 }
 
 a img:hover{
@@ -98,28 +99,6 @@ a img:hover{
 
 /*CUPCAKE*/
 
-.cupcake-img {
-    width: 59.5rem;
-    height: 59.5rem;
-    padding: 1px;
-    background-color: #a73934;
-    margin-top: -5rem;
-}
-
 /*SALAD*/
 
-.salad-img {
-    width: 59.5rem;
-    height: 59.5rem;
-    padding: .1rem;
-    margin-top: -50rem;
-    background-color: #e0e0c3;
-}
-
 /*CAKE*/
-
-.cake-img {
-    padding: .1rem;
-    background-color: #e6afb8;
-    margin-top: -5rem;
-}
