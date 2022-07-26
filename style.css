@@ -30,7 +30,12 @@ h2 {
     margin: 2.5rem;
 }
 
-p, li {
+.ingredients li, .cooktime li, .home li {
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+.desc{
     font-size: 2rem;
     margin: 2rem;
 }
@@ -97,8 +102,23 @@ a img:hover{
     border: solid yellow .5rem;
 }
 
-/*CUPCAKE*/
+.directions{
+    padding-left: 3rem;
+    font-size: 2rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
-/*SALAD*/
+#salad .directions{
+    height: 40rem;
+}
 
-/*CAKE*/
+#cake .directions{
+    height: 150rem;
+}
+
+#cupcake .directions{
+    height: 50rem;
+}
