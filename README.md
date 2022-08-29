@@ -9,8 +9,8 @@
 
 ![image](https://user-images.githubusercontent.com/72032743/185135597-5decc3e2-3d5b-42c8-a1fa-cd533ce90d31.png)
 
-## Credits
+## Acknowledgements
 
-#### The Odin Project:
+- Made as a solution for the odin recipes project on [The Odin Project]
 
-Website : https://www.theodinproject.com Github : https://github.com/TheOdinProject/theodinproject
+[The Odin Project]: <https://www.theodinproject.com>
